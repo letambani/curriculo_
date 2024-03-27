@@ -5,56 +5,106 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #ffffff;
             margin: 0;
             padding: 0;
-        }
-
-        #header {
-            background-color: rgba(8, 14, 0, 0.685);
-            color: #fff;
-            text-align: center;
-            padding: 20px;
+            display: flex;
+            justify-content: center;
         }
 
         #profile-image {
             max-width: 300px;
-            border-radius: 0%;
+            border-radius: 12%;
             display: block;
-            float:right;
             margin: 0 auto;
         }
 
         #main-content {
+            padding: 0%;
+            display: flex;
+            justify-content: space-between;
+            max-width: 1365px;
+            width: 100%;
+        }
+
+        .direita {
+            background-color: #1f1f1f;
+            color: #ffffff;
+            margin-right: 0%;
+            flex-basis: 30%;
+            line-height: 160%;
+        }
+
+        .esquerda {
+            margin-left: 0%;
+            flex-basis: 70%;
+            line-height: 160%
+        }
+
+        section {
+            background-color: #ffffff;
             padding: 20px;
         }
+
     </style>
 </head>
 <body>
     <div id="header">
-        <h1>Meu Currículo</h1>
     </div>
     <div id="main-content">
-        <h2>Dados Pessoais</h2>
-        <img id="profile-image" src="perfect-yellow-flower.jpg" alt="Foto de Perfil">
-        <p>Nome: Letícia Tambani</p>
-        <p>E-mail: letambani@icloud.com</p>
-        <p>Telefone: (48) 98448-7451</p>
+        <section class="direita">
+            <img id="profile-image" src="img/profile.jpg" alt="Foto de Perfil">
+            <h2>Contato</h2>
+            <p>(48) 9 8448-7451<br />
+            letambani@icloud.com<br />
+            www.linkedin.com/in/letíciatambani<br /></p>
 
-        <h2>Experiência Profissional</h2>
-        <p>Cargo: Gerente de tráfego</p>
-        <p>Empresa: Agência Karambola </p>
-        <p>Descrição:  .</p>
+            <h2>Certificações</h2>
+                <p><b>Foco:</b> trazendo mais resultados para o dia a dia<br />
+                    <b>HTML e CSS:</b> ambientes de desenvolvimento, estrutura de arquivos e tags<br />
+                    <b>HTML e CSS:</b> Classes, posicionamento e Flexbox<br />
+                    Versionamento de Código com <b>Git e GitHub</b><br />
+                    <b>HTML e CSS:</b> cabeçalho, footer e variáveis CSS<br /></p>
 
-        <h2>Formação Acadêmica</h2>
-        <p>Curso: Análise e Desenvolvimento de Sistemas</p>
-        <p>Instituição: FMP</p>
-        <p>Ano de Conclusão: 2026</p>
-        <p> ----------------- </p>
-        <p>Curso: Publicidade e Propaganda</p>
-        <p>Instituição: Anhanguera</p>
-        <p>Ano de Conclusão: 2016</p>
+            <h2>Principais competências</h2>
+            <p>Looker Studio Overview<br />
+            Media Query<br />
+            GitHub<br /></p>
+        </section>
+        
+        <section class="esquerda">
+            <h1>Letícia Tambani</h1>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas com experiência em Business Intelligence<br />
+                em busca de oportunidades de crescimento e aplicação prática de conhecimentos.</p>
 
+                
+            <h2>Resumo</h2>
+            <p>Sou uma profissional dedicada em constante busca por oportunidades de crescimento e aplicação prática de conhecimentos. 
+            Atualmente, estudo Análise e Desenvolvimento de Sistemas, trazendo uma sólida experiência em Business Intelligence para minha trajetória.
+            Meu caminho profissional teve início como Gestora de Tráfego, onde concentrei meus esforços na elaboração de estratégias inteligentes para alcançar resultados empresariais eficazes. 
+            Com nove anos de experiência, desenvolvi habilidades essenciais em planejamento, monitoramento, orçamentação e gestão de tráfego, contribuindo diretamente para o sucesso das empresas em que atuei.
+            Atualmente, estou comprometida com meu desenvolvimento na área de tecnologia da informação, buscando expandir e aprimorar meus conhecimentos técnicos. 
+            Possuo familiaridade com uma variedade de ferramentas e tecnologias, incluindo GitHub para versionamento de código, Dev Tools para depuração e otimização, Figma para design de interfaces, além de ser proficiente em Lógica de Programação, JavaScript, CSS e HTML.
+            Além disso, estou continuamente buscando ampliar minha expertise, com certificações em Google Ads e Meta Ads, obtidas através de programas de business partner, e experiência em plataformas como maile.me e Mailchimp para gerenciamento de mailing. 
+            Tenho habilidades em configurações de Looker Studio, Super Metrics e conhecimento básico em Power BI.
+            Estou entusiasmada para explorar novas conexões e oportunidades para colaborar em projetos desafiadores e inovadores.
+            Minha paixão pelo aprendizado contínuo e minha determinação em enfrentar desafios me tornam uma profissional dinâmica e pronta para novos desafios.</p>
+            <p>________</p>
+            <h2>Experiência</h2>
+            <h3>Agência Karambola</h3>
+            <p>Gerente de tráfego<br />
+            janeiro de 2018 - setembro de 2023 (5 anos 9 meses)<br />
+            Palhoça, Santa Catarina, Brasil</p>
+            <p>________</p>
+            <h2>Formação acadêmica</h2>
+            <h3>Faculdade Municipal de Palhoça</h3>
+            <p>Curso Superior de Tecnologia (CST), ANÁLISE E DESENVOLVIMENTO DE SISTEMAS  · (janeiro de 2024 - julho de 2026)</p>
+            <h3>Anhanguera Educacional</h3>
+            Graduação, PUBLICIDADE E PROPAGANDA · (janeiro de 2013 - dezembro de 2017)</p>
+        </section>
+    </div>
+</body>
+</html>
     </div>
 </body>
 </html>
